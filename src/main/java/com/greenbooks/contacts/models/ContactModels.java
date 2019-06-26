@@ -2,7 +2,7 @@ package com.greenbooks.contacts.models;
 
 public class ContactModels {
 	private String name;
-	private Integer number;
+	private String number;
 	private String location;
 	public String getName() {
 		return name;
@@ -10,10 +10,10 @@ public class ContactModels {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Integer getNumber() {
+	public String getNumber() {
 		return number;
 	}
-	public void setNumber(Integer number) {
+	public void setNumber(String number) {
 		this.number = number;
 	}
 	public String getLocation() {
@@ -22,5 +22,7 @@ public class ContactModels {
 	public void setLocation(String location) {
 		this.location = location;
 	}
+	
+
 
 }
